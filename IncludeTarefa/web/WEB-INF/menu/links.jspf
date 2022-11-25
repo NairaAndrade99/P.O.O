@@ -1,0 +1,59 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+
+
+
+<center><div class="header">
+    <a  class="text" href="juros-compostos.jsp">Juros Compostos</a>
+
+    <a class="text1" href="juros-simple.jsp">Juros Simples</a>
+   </div></center>
+          
+
+
+<style>
+    
+    *{ 
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;           
+                   
+    }                    
+    .header{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+    padding: 60px 60px;
+    }
+ .text{
+    font-family: "Montserrat",sans-serif;
+   font-weight: 700;
+   font-size: 4rem;
+   color: #fff;
+   border:3px solid #fff;
+   padding: 4rem 4rem;
+   text-decoration:none;
+ }
+ .text1{
+     font-family: "Montserrat",sans-serif;
+   font-weight: 700;
+   text-decoration:none;
+   font-size: 4rem;
+   color: #fff;
+   border:3px solid #fff;
+   padding: 4rem 4rem;
+   
+   
+ }
+ .text:hover{
+     text-decoration:none;
+      color: #886F6F;
+ }
+ .text1:hover{
+     text-decoration:none;
+      color: #886F6F;
+ }
+    
+</style>
